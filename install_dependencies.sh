@@ -82,7 +82,7 @@ update_path ${bowtie2_dir}
 update_path ${cdhit_dir}
 
 
-pip3 install ariba=v2.14.4 pymummer biopython==1.79 pyyaml
+pip3 install ariba==2.14.4 pymummer biopython==1.79 pyyaml
 
 
 echo "Add the following line to your ~/.bashrc profile"
